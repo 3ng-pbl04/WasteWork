@@ -321,6 +321,26 @@ namespace App\Models {
     /**
      * App\Models\Pengaduan
      *
+     * @property \Illuminate\Support\Carbon|null $updated_at
+     * @property \Illuminate\Support\Carbon|null $created_at
+     * @property float|null $longitude
+     * @property float|null $latitude
+     * @property string|null $foto
+     * @property string $keterangan
+     * @property string $alamat
+     * @property string $no_telp
+     * @property string $nama
+     * @property int $id
+     * @method static \Illuminate\Database\Eloquent\Builder<Pengaduan>|Pengaduan whereId($value)
+     * @method static \Illuminate\Database\Eloquent\Builder<Pengaduan>|Pengaduan whereNama($value)
+     * @method static \Illuminate\Database\Eloquent\Builder<Pengaduan>|Pengaduan whereNoTelp($value)
+     * @method static \Illuminate\Database\Eloquent\Builder<Pengaduan>|Pengaduan whereAlamat($value)
+     * @method static \Illuminate\Database\Eloquent\Builder<Pengaduan>|Pengaduan whereKeterangan($value)
+     * @method static \Illuminate\Database\Eloquent\Builder<Pengaduan>|Pengaduan whereFoto($value)
+     * @method static \Illuminate\Database\Eloquent\Builder<Pengaduan>|Pengaduan whereLatitude($value)
+     * @method static \Illuminate\Database\Eloquent\Builder<Pengaduan>|Pengaduan whereLongitude($value)
+     * @method static \Illuminate\Database\Eloquent\Builder<Pengaduan>|Pengaduan whereCreatedAt($value)
+     * @method static \Illuminate\Database\Eloquent\Builder<Pengaduan>|Pengaduan whereUpdatedAt($value)
      * @method static \Illuminate\Database\Eloquent\Builder<Pengaduan>|Pengaduan newModelQuery()
      * @method static \Illuminate\Database\Eloquent\Builder<Pengaduan>|Pengaduan newQuery()
      * @method static \Illuminate\Database\Eloquent\Builder<Pengaduan>|Pengaduan query()
