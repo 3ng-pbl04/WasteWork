@@ -56,6 +56,7 @@
                 </div>
 
                 <button type="submit" class="btn btn-success">Kirim Pengaduan</button>
+                <button type="reset" class="btn btn-warning">Reset</button>
         
             </form>
         </div>
